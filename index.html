@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>password sub</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main>
+    <h1 id="result">
+      ppp
+    </h1>
+
+    <div class="btn">
+      パスワードを生成
+    </div>
+
+    <fieldset>
+      <legend>オプション</legend>
+
+
+      <label>
+       長さ(<span id="passwordLength">8</span>)
+      <input type="range" id="slider" min="8" max="24" value="8">
+      </label>
+
+      <label>
+        数字
+        <input type="checkbox" id="numbersCheckbox">
+      </label>
+
+      <label>
+       記号
+        <input type="checkbox" id="SymbolsCheckbox">
+      </label>
+
+    </fieldset>
+    
+  </main>
+
+  
+  <script src="js/main.js"></script>
+</body>
+</html>

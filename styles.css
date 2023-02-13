@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+}
+
+h1,p{
+  margin: 0;
+}
+
+h1{
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #aaa;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+main{
+  width: 400px;
+  margin: 32px auto 0;
+  padding: 16px;
+  box-shadow: 0 0 8px #999;
+  border-radius: 8px;
+}
+
+.btn{
+  text-align: center;
+  color: white;
+  width: 100%;
+  background: #08c;
+  border-radius: 8px;
+  padding: 14px 0;
+  margin: 16px 0;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: .5;
+}
+.btn:active{
+  opacity: .3;
+}
+
+
+fieldset{
+  border: 1px dashed #999;
+  display: flex;
+  justify-content: space-between;
+}
+
+fieldset legend{
+  padding-left: 0;
+}
+
+#passwordLength{
+  width: 24px;
+  display: inline-block;
+  text-align: center;
+}
